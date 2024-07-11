@@ -1,0 +1,508 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "df0ba17f-f6d0-452b-8f65-2e12cc166618",
+      "created_time": "2024-07-11T01:16:00.000Z",
+      "last_edited_time": "2024-07-11T01:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9cae63ee-1c6e-4c7b-80de-f02bc538bd5b"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9cae63ee-1c6e-4c7b-80de-f02bc538bd5b"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "3e2e2058-a034-4cb6-87e3-2554526a35eb"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Email": {
+          "id": "%3Bs%7BQ",
+          "type": "email",
+          "email": "juan@example.com"
+        },
+        "id_invitado": {
+          "id": "Hg%3A%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "12345",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "12345",
+              "href": null
+            }
+          ]
+        },
+        "id_invitado_invitado": {
+          "id": "QcAj",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Apellido_paterno": {
+          "id": "U%7DDC",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Pérez",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Pérez",
+              "href": null
+            }
+          ]
+        },
+        "Asistirá": {
+          "id": "X%7DbC",
+          "type": "checkbox",
+          "checkbox": true
+        },
+        "Apellido_Materno": {
+          "id": "%5Bze%5E",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "García",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "García",
+              "href": null
+            }
+          ]
+        },
+        "Teléfono": {
+          "id": "d%7CP%5B",
+          "type": "phone_number",
+          "phone_number": "555-1234"
+        },
+        "Nombre": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Juan",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Juan",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Juan-df0ba17ff6d0452b8f652e12cc166618",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "67c7fe3a-7e80-4b05-a615-94d8eb0c673a",
+      "created_time": "2024-07-11T00:52:00.000Z",
+      "last_edited_time": "2024-07-11T01:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "3e2e2058-a034-4cb6-87e3-2554526a35eb"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Email": {
+          "id": "%3Bs%7BQ",
+          "type": "email",
+          "email": "carlosbenitez@gmail.com"
+        },
+        "id_invitado": {
+          "id": "Hg%3A%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "7dc70184-d2a2-4db6-8b00-34eb390c5fa6",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "7dc70184-d2a2-4db6-8b00-34eb390c5fa6",
+              "href": null
+            }
+          ]
+        },
+        "id_invitado_invitado": {
+          "id": "QcAj",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "00bab154-22b4-4805-95a6-d516b6b23bb8",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "00bab154-22b4-4805-95a6-d516b6b23bb8",
+              "href": null
+            }
+          ]
+        },
+        "Apellido_paterno": {
+          "id": "U%7DDC",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Benitez",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Benitez",
+              "href": null
+            }
+          ]
+        },
+        "Asistirá": {
+          "id": "X%7DbC",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "Apellido_Materno": {
+          "id": "%5Bze%5E",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "gogogo",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "gogogo",
+              "href": null
+            }
+          ]
+        },
+        "Teléfono": {
+          "id": "d%7CP%5B",
+          "type": "phone_number",
+          "phone_number": "5568555359"
+        },
+        "Nombre": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Carlos",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Carlos",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Carlos-67c7fe3a7e804b05a61594d8eb0c673a",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "83a11943-2412-466a-bf59-0fb433a5e68f",
+      "created_time": "2024-07-11T00:52:00.000Z",
+      "last_edited_time": "2024-07-11T00:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "3e2e2058-a034-4cb6-87e3-2554526a35eb"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Email": {
+          "id": "%3Bs%7BQ",
+          "type": "email",
+          "email": null
+        },
+        "id_invitado": {
+          "id": "Hg%3A%3F",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "id_invitado_invitado": {
+          "id": "QcAj",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Apellido_paterno": {
+          "id": "U%7DDC",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Asistirá": {
+          "id": "X%7DbC",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "Apellido_Materno": {
+          "id": "%5Bze%5E",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Teléfono": {
+          "id": "d%7CP%5B",
+          "type": "phone_number",
+          "phone_number": null
+        },
+        "Nombre": {
+          "id": "title",
+          "type": "title",
+          "title": []
+        }
+      },
+      "url": "https://www.notion.so/83a119432412466abf590fb433a5e68f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b7182a3f-c0e7-4055-859e-5c8d4caea2cc",
+      "created_time": "2024-07-11T00:52:00.000Z",
+      "last_edited_time": "2024-07-11T01:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ac3c3afa-29c9-4cc0-b147-9633721be45a"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "3e2e2058-a034-4cb6-87e3-2554526a35eb"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Email": {
+          "id": "%3Bs%7BQ",
+          "type": "email",
+          "email": "gaelivan740@gmail.com"
+        },
+        "id_invitado": {
+          "id": "Hg%3A%3F",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "00bab154-22b4-4805-95a6-d516b6b23bb8",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "00bab154-22b4-4805-95a6-d516b6b23bb8",
+              "href": null
+            }
+          ]
+        },
+        "id_invitado_invitado": {
+          "id": "QcAj",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Apellido_paterno": {
+          "id": "U%7DDC",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Cruz",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Cruz",
+              "href": null
+            }
+          ]
+        },
+        "Asistirá": {
+          "id": "X%7DbC",
+          "type": "checkbox",
+          "checkbox": false
+        },
+        "Apellido_Materno": {
+          "id": "%5Bze%5E",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "López",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "López",
+              "href": null
+            }
+          ]
+        },
+        "Teléfono": {
+          "id": "d%7CP%5B",
+          "type": "phone_number",
+          "phone_number": "5568555356"
+        },
+        "Nombre": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Gael Iván",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Gael Iván",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Gael-Iv-n-b7182a3fc0e74055859e5c8d4caea2cc",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {},
+  "request_id": "31c59d94-66f0-44ab-ae1c-20c5562d9a7f"
+}
