@@ -51,7 +51,10 @@ app.post('/insert', async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 });
-
+app.get('/get', async () => {
+console.log("correctamente conectado")
+}
+);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
