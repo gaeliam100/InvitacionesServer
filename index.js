@@ -1,3 +1,5 @@
+//importamos la libreria para usar uuid
+const { v4: uuidv4 } = require('uuid');
 const express = require('express');
 const { Client } = require("@notionhq/client");
 
@@ -8,128 +10,43 @@ const app = express();
 app.use(express.json());
 
 app.post('/insert', async (req, res) => {
+    console.log(req.body);
+    const { name, persons, asistencia } = req.body;
     try {
+        console.log(req.body)
         const response = await notion.pages.create({
             parent: { database_id: "3e2e2058a0344cb687e32554526a35eb" },
             properties: {
-                Nombre: {
-                    title: [
-                        {
-                            text: {
-                                content: "Juan"
-                            }
-                        }
-                    ]
-                },
-                Email: {
-                    email: "juan@example.com"
-                },
                 id_invitado: {
                     rich_text: [
                         {
                             text: {
-                                content: "12345"
+                                content: uuidv4()
                             }
                         }
                     ]
                 },
-                Apellido_paterno: {
-                    rich_text: [
-                        {
-                            text: {
-                                content: "Pérez"
-                            }
-                        }
-                    ]
-                },
-                Apellido_Materno: {
-                    rich_text: [
-                        {
-                            text: {
-                                content: "García"
-                            }
-                        }
-                    ]
-                },
-                Teléfono: {
-                    phone_number: "555-1234"
-                },
-                Asistirá: {
-                    checkbox: true
-                }
-            }
-        });
-        res.json(response);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
-app.get('/select', async (req, res) => {
-    try {
-        const response = await notion.databases.query({
-            database_id: "3e2e2058a0344cb687e32554526a35eb"
-        });
-        res.json(response.results[0].properties);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
-app.put('/update/:pageId', async (req, res) => {
-    const { pageId } = req.params;
-    try {
-        const response = await notion.pages.update({
-            page_id: pageId,
-            properties: {
                 Nombre: {
                     title: [
                         {
                             text: {
-                                content: "Juan Actualizado"
+                                content: name  // Asegúrate de pasar el nombre correcto
                             }
                         }
                     ]
                 },
-                Email: {
-                    email: "juan_actualizado@example.com"
+                Asistira: {
+                    select: {
+                        name: asistencia  // Aquí asumiendo que 'asistencia' es un valor válido en el select
+                    }
                 },
-                id_invitado: {
-                    rich_text: [
-                        {
-                            text: {
-                                content: "67890"
-                            }
-                        }
-                    ]
-                },
-                Apellido_paterno: {
-                    rich_text: [
-                        {
-                            text: {
-                                content: "Pérez Actualizado"
-                            }
-                        }
-                    ]
-                },
-                Apellido_Materno: {
-                    rich_text: [
-                        {
-                            text: {
-                                content: "García Actualizado"
-                            }
-                        }
-                    ]
-                },
-                Teléfono: {
-                    phone_number: "555-5678"
-                },
-                Asistirá: {
-                    checkbox: false
+                personas: {
+                    number: persons  // Asegúrate de que 'persons' sea un número
                 }
             }
         });
         res.json(response);
+        return res.status(200).json({ message: "Invitado creado correctamente" });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
