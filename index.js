@@ -1,8 +1,10 @@
 //importamos la libreria para usar uuid
 const { v4: uuidv4 } = require('uuid');
 const express = require('express');
+const cors = require('cors');
 const { Client } = require("@notionhq/client");
-
+// Habilitar CORS para todos los orígenes
+app.use(cors());
 // Inicializando el cliente de Notion
 const notion = new Client({ auth: "secret_R359cUMVKodYb42PpOWQNtLNgCEajfRcoAClU8QxvmM" });
 
