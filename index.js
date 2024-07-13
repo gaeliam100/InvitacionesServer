@@ -53,10 +53,13 @@ app.post('/insert', async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 });
-app.get('/get', async () => {
-console.log("correctamente conectado")
-}
-);
+app.get('/get', async (req,res) => {
+res.send("correctamente conectado")
+});
+// Rutas
+app.get('/', (req, res) => {
+    console.log('cors enabled');
+});
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
