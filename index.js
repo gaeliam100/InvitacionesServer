@@ -12,10 +12,8 @@ app.use(cors());
 app.use(express.json());
 
 app.post('/insert', async (req, res) => {
-    console.log(req.body);
     const { name, persons, asistencia } = req.body;
     try {
-        console.log(req.body)
         const response = await notion.pages.create({
             parent: { database_id: "3e2e2058a0344cb687e32554526a35eb" },
             properties: {
@@ -43,14 +41,13 @@ app.post('/insert', async (req, res) => {
                     }
                 },
                 personas: {
-                    number: persons  // Asegúrate de que 'persons' sea un número
+                    number: parseInt(persons, 10)  // Asegúrate de que 'persons' sea un número
                 }
             }
         });
-        res.json(response);
-        return res.status(200).json({ message: "Invitado creado correctamente" });
+        return res.json({message: 'Invitado creado correctamente',status:200});
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.json({message: 'no ha sido invitado correctamente',status:500});
     }
 });
 app.get('/get', async (req,res) => {
